@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <EnableDynamicLoading>true</EnableDynamicLoading>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Lib.Harmony" Version="2.2.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="mms.client">
+        <HintPath>..\deps\mms.client.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>..\deps\Newtonsoft.Json.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+      <Reference Include="provisioner.framework">
+        <HintPath>..\deps\provisioner.framework.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+*.yml text eol=lf
+*.cmake text eol=lf
+*.txt text eol=lf
+
+*.bat text eol=lf
+
+*.md text eol=lf
+
+*.h text eol=lf
+*.cpp text eol=lf
+
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+
+*.rs text eol=lf
+*.toml text eol=lf
+
+*.git* text eol=lf

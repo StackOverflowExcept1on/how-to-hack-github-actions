@@ -1,0 +1,14 @@
+#ifndef PACKED_ASSEMBLY_H
+#define PACKED_ASSEMBLY_H
+
+#include <cstdint>
+
+__declspec(align(1), allocate(".text")) const char_t assemblyFileName[] = L"patcher.dll";
+__declspec(align(1), allocate(".text")) const char_t typeName[] = L"patcher.Main, patcher";
+__declspec(align(1), allocate(".text")) const char_t methodName[] = L"EntryPoint";
+
+__declspec(align(1), allocate(".text")) const uint8_t packedAssembly[] = {{
+    {}
+}};
+
+#endif //PACKED_ASSEMBLY_H

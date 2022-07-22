@@ -1,0 +1,14 @@
+.idea
+build
+cmake-build-debug
+cmake-build-minsizerel
+cmake-build-release
+cmake-build-relwithdebinfo
+projects/cpp/app/bootstrapper/include/assembly.h
+projects/cpp/app/codeinjector/include/shellcode.h
+projects/cpp/obfuscation/fakekernel32/include/fakekernel32.h
+projects/csharp/patcher/.vs
+projects/csharp/patcher/patcher/bin
+projects/csharp/patcher/patcher/obj
+projects/rust/dump-assembly/Cargo.lock
+projects/rust/shellgen/Cargo.lock

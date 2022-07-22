@@ -1,0 +1,10 @@
+#ifndef SHELLCODE_H
+#define SHELLCODE_H
+
+#include <cstdint>
+
+__declspec(align(1), allocate(".text")) const uint8_t shellcode[] = {{
+    {}
+}};
+
+#endif //SHELLCODE_H
