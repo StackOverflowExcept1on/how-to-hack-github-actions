@@ -55,7 +55,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Steal some files for me to analyze
         run: |
@@ -63,14 +63,14 @@ jobs:
           Copy-Item C:\actions\runner-provisioner-Windows\hostfxr.dll .\
           Copy-Item -Recurse C:\actions\runner-provisioner-Windows .\
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: libraries
           path: |
             kernel32.dll
             hostfxr.dll
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: program
           path: runner-provisioner-Windows
